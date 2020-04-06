@@ -68,7 +68,7 @@ function mapPosts(posts: Array<Post>): ReactNode {
                 <Link href={`/post/${post.id}`} passHref>
                     <Title>{post.title}</Title>
                 </Link>
-                <p>{post.body}</p>
+                <p>{ post.body.length > 250 ? post.body.slice(0, 250) + '...' : post.body }</p>
             </PostPreview>
         );
     })(legitPosts);
