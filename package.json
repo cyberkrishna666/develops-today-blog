@@ -1,0 +1,40 @@
+{
+  "name": "develops_today_test_blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "https://pkg.csb.dev/reduxjs/redux-toolkit/commit/933aa4a1/@reduxjs/toolkit",
+    "@types/lodash": "^4.14.149",
+    "@types/react-redux": "^7.1.7",
+    "@types/styled-components": "^5.0.1",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "next": "^9.3.4",
+    "next-redux-wrapper": "^5.0.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-icons": "^3.9.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "save": "^2.4.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "@types/react": "^16.9.23",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
