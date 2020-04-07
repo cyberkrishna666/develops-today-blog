@@ -9,3 +9,5 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+See this app deployed on [https://blog-develops-today.herokuapp.com/](Heroku).
